@@ -11,7 +11,7 @@ Her sorunun kendi klasörü vardır ve klasör adı sorunun adını temsil eder.
 
 ## Soruları Bulma
 
-Her sorunun çözümü, ilgili sorunun HackerRank web sitesindeki sayfasında bulunabilir. İlgili sorunun açıklamasını ve gerekli giriş/çıkış formatlarını orada bulabilirsiniz.
+Soruları, ilgili sorunun `README.md` dokumanında veya sorunun HackerRank web sitesindeki sayfasında bulunabilir.
 
 ## Katkıda Bulunma
 
