@@ -7,7 +7,7 @@ Bu repo, HackerRank üzerinde çözdüğüm programlama sorularının çözümle
 Her sorunun kendi klasörü vardır ve klasör adı sorunun adını temsil eder. Her klasörde aşağıdaki dosyalar bulunur:
 
 - `solution.js`: Sorunun çözümünü içeren JavaScript dosyası.
-- `README.md`: Soru açıklaması ve çözümün detayları için Markdown formatında bir dosya.
+- `README.md`: Soru açıklaması ve çözümün detayları.
 
 ## Soruları Bulma
 
