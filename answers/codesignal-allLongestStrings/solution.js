@@ -11,3 +11,5 @@ function solution(inputArray) {
   });
   return longestStrings;
 }
+
+console.log(solution(["aba", "aa", "ad", "vcd", "aba"]));
