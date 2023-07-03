@@ -1,6 +1,6 @@
-# HackerRank Çözümleri
+# Coding-Challenge Çözümleri
 
-Bu repo, HackerRank üzerinde çözdüğüm programlama sorularının çözümlerini içerir. Her bir soru için ayrı bir klasör bulunmaktadır ve her klasörde çözüm kodu ve soru açıklaması yer almaktadır.
+Bu repo, HackerRank vb siteler üzerinde çözdüğüm programlama sorularının çözümlerini içerir. Her bir soru için ayrı bir klasör bulunmaktadır ve her klasörde çözüm kodu ve soru açıklaması yer almaktadır.
 
 ## Soruların Yapısı
 
