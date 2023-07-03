@@ -22,3 +22,10 @@ function solution(a) {
 
   return a;
 }
+
+// çözüm 2
+function solution(a) {
+  let heights = a.filter((h) => h !== -1).sort((a, b) => a - b);
+  let j = 0;
+  return a.map((h) => (h !== -1 ? heights[j++] : -1));
+}
