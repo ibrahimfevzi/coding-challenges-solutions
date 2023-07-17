@@ -19,3 +19,12 @@ function solution(inputString) {
 
   return oddCount <= 1;
 }
+
+
+//çözüm yöntemi şöyle:
+// 1. inputString'deki her bir karakterin sayısını bul
+// 2. tek sayıda karakter sayısı 1'den fazla ise false döndür
+// 3. tek sayıda karakter sayısı 1 ise true döndür
+// 4. tek sayıda karakter sayısı 0 ise true döndür
+// 5. tek sayıda karakter sayısı 0'dan fazla ise false döndür
+
