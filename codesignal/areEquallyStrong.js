@@ -18,15 +18,18 @@ solution(yourLeft, yourRight, friendsLeft, friendsRight) = false.
 */
 
 function solution(yourLeft, yourRight, friendsLeft, friendsRight) {
+  // 1. find the heaviest weights they each are able to lift
+  const yourStrongest = yourLeft >= yourRight ? yourLeft : yourRight;
+  const friendsStrongest =
+    friendsLeft >= friendsRight ? friendsLeft : friendsRight;
 
-    // 1. find the heaviest weights they each are able to lift
-    const yourStrongest = yourLeft >= yourRight ? yourLeft : yourRight;
-    const friendsStrongest = friendsLeft >= friendsRight ? friendsLeft : friendsRight;
-    
-    // 2. find the weakest arms
-    const yourWeakest = yourLeft <= yourRight ? yourLeft : yourRight;
-    const friendsWeakest = friendsLeft <= friendsRight ? friendsLeft : friendsRight;
-    
-    // 3. check if they are equally strong
-    return yourStrongest === friendsStrongest && yourWeakest === friendsWeakest;
+  // 2. find the weakest arms
+  const yourWeakest = yourLeft <= yourRight ? yourLeft : yourRight;
+  const friendsWeakest =
+    friendsLeft <= friendsRight ? friendsLeft : friendsRight;
+
+  // 3. check if they are equally strong
+  return yourStrongest === friendsStrongest && yourWeakest === friendsWeakest;
 }
+
+//
